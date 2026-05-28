@@ -1,0 +1,23 @@
+name: parent_control_dashboard
+description: "A modern reactive monitoring dashboard built with Flutter & Firebase."
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  firebase_core: ^2.24.0
+  cloud_firestore: ^4.14.0
+  webview_flutter: ^4.4.2 # لتشغيل واجهة HTML والـ Tailwind داخل التطبيق
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
